@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testwebapp23"
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/RohanAwasthi/azure-web-app-20240212052301
+      title: "testwebapp23"
+      icon: code
+  tags:
+    - java
+    - azure
+    - applicationtype-webapplication
+  annotations:
+    jenkins.io/github-folder: 'apache-web-app/azure-terrform-job'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  RohanAwasthi/azure-web-app-20240212052301
+    backstage.io/linguist: https://github.com/RohanAwasthi/azure-web-app-20240212052301
+    azure.com/tag-selector: pid/p44
+spec:
+  type: service
+  lifecycle: development
+  owner: group:default/ey
